@@ -1,0 +1,3 @@
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/TestProject.dir
