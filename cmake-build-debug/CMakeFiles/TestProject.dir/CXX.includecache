@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../Calc/Summator.h
+
 /home/puchkinda/home/auriga/CppDive/TestProject/main.cpp
 iostream
 -
+Summator.h
+/home/puchkinda/home/auriga/CppDive/TestProject/Summator.h
 

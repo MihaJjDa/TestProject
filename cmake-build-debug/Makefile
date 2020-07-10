@@ -123,6 +123,19 @@ TestProject/fast:
 	$(MAKE) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/build
 .PHONY : TestProject/fast
 
+#=============================================================================
+# Target rules for targets named Calc
+
+# Build rule for target.
+Calc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Calc
+.PHONY : Calc
+
+# fast build rule for target.
+Calc/fast:
+	$(MAKE) -f Calc/CMakeFiles/Calc.dir/build.make Calc/CMakeFiles/Calc.dir/build
+.PHONY : Calc/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TestProject"
+	@echo "... Calc"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

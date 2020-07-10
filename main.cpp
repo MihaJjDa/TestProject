@@ -1,7 +1,11 @@
 #include <iostream>
 
+#include "Summator.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Summator s;
+
+    std::cout << s.sum(1, 2) << std::endl;
 
     return 0;
 }
