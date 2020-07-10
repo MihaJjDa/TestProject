@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCalc.a  CMakeFiles/Calc.dir/Summator.cpp.o
+/usr/bin/ranlib libCalc.a
