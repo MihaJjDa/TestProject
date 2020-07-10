@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/contrib/googletest/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/cmake_install.cmake")
 endif()
 

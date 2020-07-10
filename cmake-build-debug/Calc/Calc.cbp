@@ -5,7 +5,7 @@
 		<Option title="Calc"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Calc\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Calc\;CMake Files\Calc\tests\;CMake Files\contrib\;CMake Files\contrib\googletest\;CMake Files\contrib\googletest\googlemock\;CMake Files\contrib\googletest\googlemock\cmake\;CMake Files\contrib\googletest\googletest\;CMake Files\contrib\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc"/>
@@ -65,6 +65,58 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Calc_Test">
+				<Option output="/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Calc_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/."/>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/include"/>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 Calc_Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Calc_Test/fast">
+				<Option output="/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Calc_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/."/>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/include"/>
+					<Add directory="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 Calc_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/Summator.cpp">
 			<Option target="Calc"/>
@@ -72,11 +124,44 @@
 		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/Summator.h">
 			<Option target="Calc"/>
 		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/tests/main_test.cpp">
+			<Option target="Calc_Test"/>
+		</Unit>
 		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Calc\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/Calc/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Calc\tests\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\contrib\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\contrib\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\contrib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\contrib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\contrib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/puchkinda/home/auriga/CppDive/TestProject/contrib/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\contrib\googletest\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
