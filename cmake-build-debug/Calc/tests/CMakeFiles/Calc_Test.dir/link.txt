@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Calc_Test.dir/main_test.cpp.o  -o Calc_Test  ../libCalc.a ../../lib/libgtestd.a -lpthread 
