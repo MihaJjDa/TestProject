@@ -1,0 +1,6 @@
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/CMakeFiles/TestProject.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/CMakeFiles/rebuild_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/CMakeFiles/edit_cache.dir
+/home/puchkinda/home/auriga/CppDive/TestProject/cmake-build-debug/Calc/CMakeFiles/Calc.dir
